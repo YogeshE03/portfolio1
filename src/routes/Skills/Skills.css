@@ -1,0 +1,38 @@
+.skillsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fullCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  .skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 3%;
+    margin: 0 10% 0 20%;
+  }
+  
+  .languageContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .codingIcon {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+  }
+  .languageIcon {
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+  }

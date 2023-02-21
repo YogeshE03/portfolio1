@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+.App {
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.Typewriter {
+  display: inline-block;
+}
+
+.Typewriter__wrapper {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.Typewriter__cursor {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+.socialIcons {
+  margin-top: 20px;
+  font-size: 44px;
+  cursor: pointer;
+}
+
+.notFound {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
