@@ -1,4 +1,3 @@
-// Importing images and assigning to a variable
 
 import git from "../../images/github.png";
 import react from "../../images/react.png";
@@ -11,7 +10,6 @@ import mongodb from "../../images/mongodb.png";
 import mysql from "../../images/mysql.png";
 import netlify from "../../images/netlify.png";
 
-// creating an array of objects of icon and title(Text) for skillset
 const skillData = [
   { icon: html, text: "HTML" },
   { icon: css, text: "CSS" },
@@ -26,6 +24,5 @@ const skillData = [
   { icon: netlify, text: "Netlify" },
 ];
 
-// creating an array of objects of icon and title(Text) for language certifications
 
 export { skillData };
