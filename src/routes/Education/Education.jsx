@@ -4,7 +4,7 @@ import Bounce from "react-reveal";
 import { useEffect } from "react";
 
 export function Education() {
-  // Here useEffect is used to apply some styles in body
+ 
   useEffect(() => {
     document.body.className = "educationBody";
     return () => {
