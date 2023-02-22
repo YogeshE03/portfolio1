@@ -27,7 +27,7 @@ function Home() {
     <>
       <Fade>
         <div style={styles.mainContainer}>
-          {/* <h3 style={styles.helloStyle}>Hi..!</h3> */}
+         
           <h1 style={styles.nameStyle}>YOGESH E</h1>
           <div style={{ flexDirection: "row" }}>
             <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
